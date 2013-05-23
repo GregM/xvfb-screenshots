@@ -1,0 +1,16 @@
+## MAIN REPOSITORIES
+deb http://gb.archive.ubuntu.com/ubuntu/ hardy main restricted universe multiverse
+
+## MAJOR BUG FIX UPDATES produced after the final release
+deb http://gb.archive.ubuntu.com/ubuntu/ hardy-updates main restricted universe multiverse
+
+## UBUNTU SECURITY UPDATES
+deb http://security.ubuntu.com/ubuntu hardy-security main restricted universe multiverse
+
+# # If you wish to enable the backports and proposed repositories as well (recommended), then add these lines as well
+
+## BACKPORTS REPOSITORY
+deb http://gb.archive.ubuntu.com/ubuntu/ hardy-backports main restricted universe multiverse
+
+## PROPOSED REPOSITORY
+deb http://archive.ubuntu.com/ubuntu hardy-proposed main restricted universe multiverse
